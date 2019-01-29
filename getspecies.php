@@ -1,5 +1,5 @@
 <?php
-$mysqli = new mysqli("127.0.0.1", "root", "Blokkflote1", "animals", 3307);
+$mysqli = new mysqli("127.0.0.1", "yourusername", "yourpassword", "animals", 3307);
 if($mysqli->connect_error) {
  exit('Could not connect');
 }
